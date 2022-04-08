@@ -4,7 +4,8 @@ export const userStore = defineStore({
     id: 'user',
     state: () => {
         return {
-            name: 'bingo'
+            name: 'bingo',
+            age: 23
         }
     },
     actions: {
